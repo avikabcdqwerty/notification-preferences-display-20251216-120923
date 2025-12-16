@@ -1,0 +1,162 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3
+instance/
+.webassets-cache
+*.log
+*.pot
+*.mo
+
+# FastAPI/Gunicorn/Uvicorn
+*.pid
+
+# pytest
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# PostgreSQL
+*.pgsql
+*.psql
+*.db
+*.dump
+
+# Docker
+**/Dockerfile.*
+**/Dockerfile
+docker-compose.override.yml
+.docker/
+docker-compose*.env
+docker-compose*.yml.*
+.dockerignore
+
+# Nginx
+nginx.conf
+
+# Node/React/TypeScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.tsbuildinfo
+
+# React build
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/out/
+frontend/.cache/
+frontend/coverage/
+
+# Sass
+*.sass-cache/
+*.scssc
+*.css.map
+*.sass.map
+
+# Jest/React Testing Library
+coverage/
+*.lcov
+*.lcov.info
+jest-test-results.json
+
+# i18next
+locales/*.missing.json
+locales/*.old.json
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Postman
+*.postman_collection.json
+*.postman_environment.json
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.orig
+*.rej
+
+# Accessibility tools
+.lighthouseci/
+axe-reports/
+axe-results/
+lighthouse-report.html
+lighthouse-results/
+lighthouseci/
+axe-results.json
+
+# Ignore test output
+**/__pycache__/
+**/__tests__/output/
+**/__tests__/coverage/
+**/__snapshots__/
+**/__test__/output/
+**/__test__/coverage/
+**/__snapshots__/
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore environment files
+.env.*
+.env
+.envrc
+.venv
+backend/.env
+frontend/.env
+
+# Ignore logs
+*.log
+
+# Ignore database dumps
+*.sql
+*.dump
+
+# Ignore pipenv
+Pipfile.lock
+Pipfile
+
+# Ignore poetry
+poetry.lock
+poetry.toml
+
+# Ignore migrations (if any)
+migrations/
+backend/migrations/
+frontend/migrations/
