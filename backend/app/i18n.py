@@ -2,8 +2,7 @@ from typing import Optional
 from fastapi import Request
 import threading
 
-# Thread-local storage for per-request locale
-_locale_ctx = threading.local()
+
 
 def get_locale_from_request(request: Request) -> str:
     """
